@@ -3,7 +3,7 @@ class TadpolesController < ApplicationController
 
   def metamorphose
   end
-  
+
   def index
     @tadpoles = Tadpole.all
   end
