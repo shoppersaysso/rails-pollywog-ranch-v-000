@@ -1,7 +1,7 @@
 class TadpolesController < ApplicationController
   before_action :set_tadpole, only: [:show, :edit, :update, :destroy, :metamorphosize]
 
-  def metamorphosize
+  def metamorphose
     @tadpole = Tadpole.find(params[:id])
   end
 
