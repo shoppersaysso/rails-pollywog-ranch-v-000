@@ -11,14 +11,6 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140922151423) do
-
-  create_table "frogs", force: :cascade do |t|
-    t.string   "name"
-    t.string   "color"
-    t.integer  "pond_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
+ActiveRecord::Schema.define(version: 0) do
 
 end
