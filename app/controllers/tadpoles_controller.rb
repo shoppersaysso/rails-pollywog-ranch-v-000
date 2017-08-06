@@ -9,6 +9,7 @@ class TadpolesController < ApplicationController
   end
 
   def show
+    @tadpole = Tadpole.find(params[:id])
   end
 
   def new
