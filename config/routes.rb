@@ -21,8 +21,4 @@ Rails.application.routes.draw do
     resources :tadpoles, :only => [:new]
   end
 
-  resources :tadpoles do
-    resources :metamorphose
-  end
-
 end
