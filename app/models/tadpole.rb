@@ -1,4 +1,4 @@
 class Tadpole < ActiveRecord::Base
   belongs_to :frog
-  belongs_to :pond, :through => :frog_id
+  belongs_to :pond, through: :frog_id
 end
